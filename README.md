@@ -14,6 +14,6 @@ How to Use:
     - Host the repository locally.
     - Upload your emote and badge designs locally.
     - Optional: Screenshot your results and upload it online.
-    > TIP: You can adjust the css to get different coloured backgrounds (green screen).
+   > TIP: You can adjust the css to get different coloured backgrounds (green screen).
 
 Feel free to provide feedback and contribute to this tool to make it even better. Stay tuned for the upcoming updates!
