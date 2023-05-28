@@ -17,28 +17,28 @@
   height: 1.5rem;
 }
 
+.gap {
+  gap: 0.2em;
+}
+
 body {
-  font-family: 'Helvetica', Arial, Helvetica, sans-serif;
-  background-color: #6eafe5;
-  --basic-color:white;
+  font-family: 'Helvetica', Arial, sans-serif;
+  background-color: #1a1a1a;
+  --basic-color: white;
   --title-color: rgb(55, 67, 100);
   --username-color: rgb(130, 123, 187);
   --twitch-darkmode: #181818;
   --discord-darkmode: #36393f;
-  padding: 1rem 12% 1rem 12%;
+  padding: 1rem 12%;
+}
+
+p {
+  color: var(--basic-color);
 }
 
 body header nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: wrap row;
-          flex-flow: wrap row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 body header nav .navBrand a {
@@ -47,7 +47,7 @@ body header nav .navBrand a {
 
 body header nav .navBrand a h1 {
   color: var(--basic-color);
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
   font-weight: 900;
   text-transform: uppercase;
   font-size: 1.5rem;
@@ -60,7 +60,6 @@ body header nav .navBrand a h1 span {
 
 body header nav #burger {
   cursor: pointer;
-  display: none;
 }
 
 body header nav #burger .bar {
@@ -90,16 +89,9 @@ body main .section .textBox {
 }
 
 body main .section .textBox .lineBox {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: wrap row;
-          flex-flow: wrap row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 body main .section #lightmodeTwitch {
@@ -120,10 +112,7 @@ body main .section #darkmodeTwitch .userName {
   font-weight: 600;
 }
 
-body main .section #darkmodeTwitch .chatMessageSeparator {
-  color: white;
-}
-
+body main .section #darkmodeTwitch .chatMessageSeparator,
 body main .section #darkmodeTwitch .chatMessageText {
   color: white;
 }
@@ -136,16 +125,13 @@ body main .section #darkmodeDiscord .userNameDiscord {
   color: var(--username-color);
 }
 
-body main .section #darkmodeDiscord .chatDateText {
-  color: white;
-}
-
+body main .section #darkmodeDiscord .chatDateText,
 body main .section #darkmodeDiscord .chatMessageText {
   color: white;
 }
 
 body main .section .reactionContainer p {
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 body main .section #lightmodeDiscord {
@@ -156,10 +142,7 @@ body main .section #lightmodeDiscord .userNameDiscord {
   color: var(--username-color);
 }
 
-body main .section #lightmodeDiscord .chatDateText {
-  color: black;
-}
-
+body main .section #lightmodeDiscord .chatDateText,
 body main .section #lightmodeDiscord .chatMessageText {
   color: black;
 }
@@ -169,19 +152,13 @@ body main .section #lightmodeDiscord .reactionContainer p {
 }
 
 body main .section .centerAll {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
+  align-items: center;
 }
 
 body main .section .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: wrap row;
-          flex-flow: wrap row;
+  flex-wrap: wrap;
 }
 
 body main .section .row h1 {
@@ -190,7 +167,7 @@ body main .section .row h1 {
 }
 
 body main .section .row .imgTwitchContainer {
-  padding: 0 5px 0 5px;
+  padding: 0 5px;
 }
 
 body main .section .row .imgTwitchContainer .small {
@@ -216,22 +193,13 @@ body main .section .row .imgTwitchContainer .large {
 body main .section .row .discordBox {
   font-family: 'hattori-hanzo';
   letter-spacing: 1px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
+  flex-direction: column;
 }
 
 body main .section .row .discordBox .discordInnerBox {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 body main .section .row .discordBox p .userNameDiscord {
@@ -241,8 +209,8 @@ body main .section .row .discordBox p .userNameDiscord {
 
 body main .section .row .discordBox p .chatDateText {
   font-weight: 500;
-  font-size: .7rem;
-  opacity: .7;
+  font-size: 0.7rem;
+  opacity: 0.7;
 }
 
 body main .section .row .discordBox .imgDiscordContainer .small {
@@ -256,20 +224,14 @@ body main .section .row .discordBox .imgDiscordContainer .medium {
 }
 
 body main .section .row .discordBox .reactionContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   cursor: pointer;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   gap: 8px;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
   background-color: #5b87ff5b;
   border-radius: 8px;
-  padding: 3px 5px 3px 5px;
+  padding: 3px 5px;
   border: 1px solid #5b81ff;
 }
 
@@ -283,17 +245,39 @@ body main .section .row .discordBox .reactionContainer .reaction {
 }
 
 body footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  width: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 body footer p {
   font-size: 1rem;
   color: var(--basic-color);
 }
-/*# sourceMappingURL=style.css.map */
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 0 10px;
+}
+
+@media (min-width: 769px) {
+  .row {
+    flex-wrap: nowrap;
+  }
+  
+  .col {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
