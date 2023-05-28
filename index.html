@@ -13,46 +13,43 @@
             <div class="navBrand">
                 <a href="/">
                     <h1>Test Your Emotes</h1>
-                    <p>version - 1.0.0 </p>
+                    <p>version - 1.0.1 </p>
                 </a>
-            </div>
-            <div id="burger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
             </div>
         </nav>
     </header>
     <div class="spacer"></div>
-    <!-- Image Section -->
     <main>
         <div class="container">
-            <div class="row">
-                <div class="section">
-                    <div class="row">
-                        <div class="imgTwitchContainer">
-                            <img class="large" id="twitchLargeImage" src="{{twitchlarge}}" alt="">   <!-- Twitch large image placeholder -->
-                            <img class="medium" id="twitchMediumImage" src="{{twitchMedium}}" alt="">   <!-- Twitch medium image placeholder -->
-                            <img class="small" id="twitchSmallImage" src="{{twitchSmall}}" alt="">   <!-- Twitch small image placeholder -->
-                        </div>
-                        <!-- ... -->
+            <div class="row ">
+                <div class="col">
+                    <div class="col">
+                        <label for="emoteInput">Your Emote Design</label>
+                        <input type="file" class="emoteInput" id="emoteInput" accept="iamge/png, image/jpg">
+                    </div>
+    <div class="spacerSmall"></div>
+
+                    <div class="col">
+                        <label for="badgeInput">Your Badge Design</label>
+                        <input type="file" class="badgeInput" id="badgeInput">
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="section">
                         <div class="row">
-                            <div class="col">
-                                <label for="twitchBadgeInput1">Upload Twitch Badge 1:</label>
-                                <input type="file" class="twitchBadgeInput" id="twitchBadgeInput1">
-                            </div>
-                            <div class="col">
-                                <label for="twitchBadgeInput2">Upload Twitch Badge 2:</label>
-                                <input type="file" class="twitchBadgeInput" id="twitchBadgeInput2">
+                            <div class="imgTwitchContainer">
+                                <img class="large emote" id="twitchLargeImage" src="image/emote-placeholder.webp">   <!-- Twitch large image placeholder -->
+                                <img class="medium emote" id="twitchMediumImage" src="image/emote-placeholder.webp">   <!-- Twitch medium image placeholder -->
+                                <img class="small emote" ge" src="image/emote-placeholder.webp">   <!-- Twitch small image placeholder -->
                             </div>
                         </div>
-                        <!-- ... -->
-                        
-                        With these changes, you have added the file upload inputs for the Twitch badge images. You can now handle the file uploads using JavaScript to update the corresponding image placeholders.
-                        
                     </div>
                 </div>
+
             </div>
+    <div class="spacerSmall"></div>
+
             <div class="row">
                 <div class="col">
                     <!-- Twitch Section -->
@@ -66,34 +63,34 @@
                                 <div class="lineBox">
                                     <p>
                                         <div class="imgTwitchContainer">
-                                            <img class="badge" id="twitchBadge1" src="{{twitchBadge}}" alt="">   <!-- Twitch badge placeholder -->
-                                            <img class="badge" id="twitchBadge2" src="{{twitchBadge}}" alt="">   <!-- Twitch badge placeholder -->
-                                            <img class="badge" id="twitchBadge3" src="{{twitchBadge}}" alt="">   <!-- Twitch badge placeholder -->
-                                            <img class="badge" id="twitchBadge4" src="{{twitchBadge}}" alt="">   <!-- Twitch badge placeholder -->
-                                            <img class="badge" id="twitchBadge5" src="{{twitchBadge}}" alt="">   <!-- Twitch badge placeholder -->
+                                            <img class="badge"src="image/badge-placeholder.webp">   <!-- Twitch badge placeholder -->
+                                            <img class="badge"src="image/badge-placeholder.webp">   <!-- Twitch badge placeholder -->
+                                            <img class="badge"src="image/badge-placeholder.webp">   <!-- Twitch badge placeholder -->
+                                            <img class="badge"src="image/badge-placeholder.webp">   <!-- Twitch badge placeholder -->
+                                            <img class="badge"src="image/badge-placeholder.webp">   <!-- Twitch badge placeholder -->
                                         </div>
                                         <span class="userName">CodeMief</span><span class="chatMessageSeparator">:</span> &nbsp;<span class="chatMessageText"> some random text to show an example.</span>
                                         <div class="imgTwitchContainer">
-                                            <img class="small" id="twitchSmall1" src="{{twitchSmall}}" alt="">   <!-- Twitch small image placeholder -->
-                                            <img class="small" id="twitchSmall2" src="{{twitchSmall}}" alt="">   <!-- Twitch small image placeholder -->
-                                            <img class="small" id="twitchSmall3" src="{{twitchSmall}}" alt="">   <!-- Twitch small image placeholder -->
+                                            <img class="small emote" src="image/emote-placeholder.webp">   <!-- Twitch small image placeholder -->
+                                            <img class="small emote" src="image/emote-placeholder.webp">   <!-- Twitch small image placeholder -->
+                                            <img class="small emote" src="image/emote-placeholder.webp">   <!-- Twitch small image placeholder -->
                                         </div>
                                     </p>
                                 </div>
                                 <div class="lineBox">
                                     <p>
                                         <div class="imgTwitchContainer">
-                                            <img class="badge" id="twitchBadge6" src="{{twitchBadge}}" alt="">   <!-- Twitch badge placeholder -->
-                                            <img class="badge" id="twitchBadge7" src="{{twitchBadge}}" alt="">   <!-- Twitch badge placeholder -->
-                                            <img class="badge" id="twitchBadge8" src="{{twitchBadge}}" alt="">   <!-- Twitch badge placeholder -->
-                                            <img class="badge" id="twitchBadge9" src="{{twitchBadge}}" alt="">   <!-- Twitch badge placeholder -->
-                                            <img class="badge" id="twitchBadge10" src="{{twitchBadge}}" alt="">   <!-- Twitch badge placeholder -->
+                                            <img class="badge"src="image/badge-placeholder.webp">   <!-- Twitch badge placeholder -->
+                                            <img class="badge"src="image/badge-placeholder.webp">   <!-- Twitch badge placeholder -->
+                                            <img class="badge"src="image/badge-placeholder.webp">   <!-- Twitch badge placeholder -->
+                                            <img class="badge"src="image/badge-placeholder.webp">   <!-- Twitch badge placeholder -->
+                                            <img class="badge" src="image/badge-placeholder.webp">   <!-- Twitch badge placeholder -->
                                         </div>
                                         <span class="userName">userName</span><span class="chatMessageSeparator">:</span> &nbsp;<span class="chatMessageText"> some random text to show an example.</span>
                                         <div class="imgTwitchContainer">
-                                            <img class="small" id="twitchSmall4" src="{{twitchSmall}}" alt="">   <!-- Twitch small image placeholder -->                            
-                                            <img class="small" id="twitchSmall5" src="{{twitchSmall}}" alt="">   <!-- Twitch small image placeholder -->                                 
-                                            <img class="small" id="twitchSmall6" src="{{twitchSmall}}" alt="">   <!-- Twitch small image placeholder -->  
+                                            <img class="small emote" src="image/emote-placeholder.webp">   <!-- Twitch small image placeholder -->                            
+                                            <img class="small emote" src="image/emote-placeholder.webp">   <!-- Twitch small image placeholder -->                                 
+                                            <img class="small emote" src="image/emote-placeholder.webp">   <!-- Twitch small image placeholder -->  
                                         </div>
                                     </p>
                                 </div>
@@ -104,34 +101,34 @@
                                 <div class="lineBox">
                                     <p>
                                         <div class="imgTwitchContainer">
-                                            <img class="badge" id="twitchBadge11" src="{{twitchBadge}}" alt="">   <!-- Twitch badge placeholder -->
-                                            <img class="badge" id="twitchBadge12" src="{{twitchBadge}}" alt="">   <!-- Twitch badge placeholder -->
-                                            <img class="badge" id="twitchBadge13" src="{{twitchBadge}}" alt="">   <!-- Twitch badge placeholder -->
-                                            <img class="badge" id="twitchBadge14" src="{{twitchBadge}}" alt="">   <!-- Twitch badge placeholder -->
-                                            <img class="badge" id="twitchBadge15" src="{{twitchBadge}}" alt="">   <!-- Twitch badge placeholder -->
+                                            <img class="badge" src="image/badge-placeholder.webp">   <!-- Twitch badge placeholder -->
+                                            <img class="badge" src="image/badge-placeholder.webp">   <!-- Twitch badge placeholder -->
+                                            <img class="badge" src="image/badge-placeholder.webp">   <!-- Twitch badge placeholder -->
+                                            <img class="badge" src="image/badge-placeholder.webp">   <!-- Twitch badge placeholder -->
+                                            <img class="badge" src="image/badge-placeholder.webp">   <!-- Twitch badge placeholder -->
                                         </div>
                                         <span class="userName">CodeMief</span><span class="chatMessageSeparator">:</span> &nbsp;<span class="chatMessageText"> some random text to show an example.</span>
                                         <div class="imgTwitchContainer">
-                                            <img class="small" id="twitchSmall7" src="{{twitchSmall}}" alt="">   <!-- Twitch small image placeholder -->
-                                            <img class="small" id="twitchSmall8" src="{{twitchSmall}}" alt="">   <!-- Twitch small image placeholder -->
-                                            <img class="small" id="twitchSmall9" src="{{twitchSmall}}" alt="">   <!-- Twitch small image placeholder -->
+                                            <img class="small emote" src="image/emote-placeholder.webp">   <!-- Twitch small image placeholder -->
+                                            <img class="small emote" src="image/emote-placeholder.webp">   <!-- Twitch small image placeholder -->
+                                            <img class="small emote" src="image/emote-placeholder.webp">   <!-- Twitch small image placeholder -->
                                         </div>
                                     </p>
                                 </div>
                                 <div class="lineBox">
                                     <p>
                                         <div class="imgTwitchContainer">
-                                            <img class="badge" id="twitchBadge16" src="{{twitchBadge}}" alt="">   <!-- Twitch badge placeholder -->
-                                            <img class="badge" id="twitchBadge17" src="{{twitchBadge}}" alt="">   <!-- Twitch badge placeholder -->
-                                            <img class="badge" id="twitchBadge18" src="{{twitchBadge}}" alt="">   <!-- Twitch badge placeholder -->
-                                            <img class="badge" id="twitchBadge19" src="{{twitchBadge}}" alt="">   <!-- Twitch badge placeholder -->
-                                            <img class="badge" id="twitchBadge20" src="{{twitchBadge}}" alt="">   <!-- Twitch badge placeholder -->
+                                            <img class="badge" src="image/badge-placeholder.webp">   <!-- Twitch badge placeholder -->
+                                            <img class="badge" src="image/badge-placeholder.webp">   <!-- Twitch badge placeholder -->
+                                            <img class="badge" src="image/badge-placeholder.webp">   <!-- Twitch badge placeholder -->
+                                            <img class="badge" src="image/badge-placeholder.webp">   <!-- Twitch badge placeholder -->
+                                            <img class="badge" src="image/badge-placeholder.webp">   <!-- Twitch badge placeholder -->
                                         </div>
                                         <span class="userName">userName</span><span class="chatMessageSeparator">:</span> &nbsp;<span class="chatMessageText"> some random text to show an example.</span>
                                         <div class="imgTwitchContainer">
-                                            <img class="small" id="twitchSmall10" src="{{twitchSmall}}" alt="">   <!-- Twitch small image placeholder -->
-                                            <img class="small" id="twitchSmall11" src="{{twitchSmall}}" alt="">   <!-- Twitch small image placeholder -->
-                                            <img class="small" id="twitchSmall12" src="{{twitchSmall}}" alt="">   <!-- Twitch small image placeholder -->
+                                            <img class="small emote"  src="image/emote-placeholder.webp">   <!-- Twitch small image placeholder -->
+                                            <img class="small emote"  src="image/emote-placeholder.webp">   <!-- Twitch small image placeholder -->
+                                            <img class="small emote"  src="image/emote-placeholder.webp">   <!-- Twitch small image placeholder -->
                                         </div>
                                     </p>
                                 </div>
@@ -152,8 +149,8 @@
                                     <p>
                                         <span class="userNameDiscord">CodeMief</span><span class="chatDateText">11/8/2022</span><br>
                                         <div class="imgDiscordContainer">
-                                            <img class="medium" id="discordMedium1" src="{{discordMedium}}" alt="">   <!-- Discord medium image placeholder -->
-                                            <img class="medium" id="discordMedium2" src="{{discordMedium}}" alt="">   <!-- Discord medium image placeholder -->
+                                            <img class="medium emote" src="image/emote-placeholder.webp">   <!-- Discord medium image placeholder -->
+                                            <img class="medium emote" src="image/emote-placeholder.webp">   <!-- Discord medium image placeholder -->
                                         </div>
                                     </p>
                                 </div> <br>
@@ -166,50 +163,8 @@
                                             <span class="chatMessageText"> some random text to show an example.</span>
                                         </p>
                                         <div class="imgDiscordContainer">
-                                            <img class="small" id="discordSmall1" src="{{discordSmall}}" alt=""> 
-                                            <img class="small" id="discordSmall2" src="{{discordSmall}}" alt=""> 
-                                        </div>
-                                    </div>
-                                </div> 
-                                <br>
-                                <div class="discordBox">
-                                    <p>
-                                        <span class="userNameDiscord">userName</span><span class="chatDateText">11/8/2022</span>
-                                        <br><span class="chatMessageText"> some random text to show a discord reaction example.</span>
-                                    </p>
-                                    <div class="reactionContainer">
-                                        <img class="reaction" id="discordReaction1" src="{{discordReaction}}" alt="">   <!-- Discord reaction image placeholder -->
-                                        <p>1</p>
-                                    </div>
-                                    <div class="reactionContainer">
-                                        <img class="reaction" id="discordReaction2" src="{{discordReaction}}" alt="">   <!-- Discord reaction image placeholder -->
-                                        <p>1</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row centerAll" id="darkmodeDiscord">
-                            <div class="textBox">
-                                <div class="discordBox">
-                                    <p>
-                                        <span class="userNameDiscord">CodeMief</span><span class="chatDateText">11/8/2022</span><br>
-                                        <div class="imgDiscordContainer">
-                                            <img class="medium" id="discordMedium3" src="{{discordMedium}}" alt="">   <!-- Discord medium image placeholder -->
-                                            <img class="medium" id="discordMedium4" src="{{discordMedium}}" alt="">   <!-- Discord medium image placeholder -->                        
-                                        </div>
-                                    </p>
-                                </div> <br>
-                                <div class="discordBox">
-                                    <p>
-                                        <span class="userNameDiscord">CodeMief</span><span class="chatDateText">11/8/2022</span>
-                                    </p>
-                                    <div class="discordInnerBox">
-                                        <p>    
-                                            <span class="chatMessageText"> some random text to show an example.</span>
-                                        </p>
-                                        <div class="imgDiscordContainer">
-                                            <img class="small" id="discordSmall3" src="{{discordSmall}}" alt=""> 
-                                            <img class="small" id="discordSmall4" src="{{discordSmall}}" alt=""> 
+                                            <img class="small emote" src="image/emote-placeholder.webp"> 
+                                            <img class="small emote" src="image/emote-placeholder.webp"> 
                                         </div>
                                     </div>
                                 </div> 
@@ -221,11 +176,55 @@
                                     </p>
                                     <div class="row gap">
                                         <div class="reactionContainer">
-                                            <img class="reaction" id="discordReaction3" src="{{discordReaction}}" alt="">   <!-- Discord reaction image placeholder -->
+                                            <img class="reaction emote" src="image/emote-placeholder.webp">   <!-- Discord reaction image placeholder -->
                                             <p>1</p>
                                         </div>
                                         <div class="reactionContainer">
-                                            <img class="reaction" id="discordReaction4" src="{{discordReaction}}" alt="">   <!-- Discord reaction image placeholder -->
+                                            <img class="reaction emote" src="image/emote-placeholder.webp">   <!-- Discord reaction image placeholder -->
+                                            <p>1</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row centerAll" id="darkmodeDiscord">
+                            <div class="textBox">
+                                <div class="discordBox">
+                                    <p>
+                                        <span class="userNameDiscord">CodeMief</span><span class="chatDateText">11/8/2022</span><br>
+                                        <div class="imgDiscordContainer">
+                                            <img class="medium emote" src="image/emote-placeholder.webp">   <!-- Discord medium image placeholder -->
+                                            <img class="medium emote" src="image/emote-placeholder.webp">   <!-- Discord medium image placeholder -->                        
+                                        </div>
+                                    </p>
+                                </div> <br>
+                                <div class="discordBox">
+                                    <p>
+                                        <span class="userNameDiscord">CodeMief</span><span class="chatDateText">11/8/2022</span>
+                                    </p>
+                                    <div class="discordInnerBox">
+                                        <p>    
+                                            <span class="chatMessageText"> some random text to show an example.</span>
+                                        </p>
+                                        <div class="imgDiscordContainer">
+                                            <img class="small emote" src="image/emote-placeholder.webp"> 
+                                            <img class="small emote" src="image/emote-placeholder.webp"> 
+                                        </div>
+                                    </div>
+                                </div> 
+                                <br>
+                                <div class="discordBox">
+                                    <p>
+                                        <span class="userNameDiscord">userName</span><span class="chatDateText">11/8/2022</span>
+                                        <br><span class="chatMessageText"> some random text to show a discord reaction example.</span>
+                                    </p>
+                                    <div class="row gap">
+                                        <div class="reactionContainer">
+                                            <img class="reaction emote" src="image/emote-placeholder.webp">   <!-- Discord reaction image placeholder -->
+                                            <p>1</p>
+                                        </div>
+                                        <div class="reactionContainer">
+                                            <img class="reaction emote" src="image/emote-placeholder.webp">   <!-- Discord reaction image placeholder -->
                                             <p>1</p>
                                         </div>
                                     </div>
