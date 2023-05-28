@@ -1,4 +1,4 @@
-# Test-Your-Emotes
+# Test Your Emotes
 ## Emote Previewer for Twitch &amp; Discord - Version 1.0.0
  
 Welcome to the Emote Previewer for Twitch & Discord - a dedicated platform for artists who want to see their designs come to life in the context of a Twitch or Discord chat before the final release. This is the initial version of a utility tool that streamlines the testing phase of emote design.
