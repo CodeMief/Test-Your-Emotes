@@ -11,8 +11,9 @@ The upcoming updates will bring significant improvements to the application's ac
 How to Use:
 
     - Clone this repository.
-    - Replace the placeholder images in the designated folder with your own emote images.
     - Host the repository locally.
-    - Access the web interface and see your emotes in action.
+    - Upload your emote and badge designs locally.
+    - Optional: Screenshot your results and upload it online.
+    > TIP: You can adjust the css to get different coloured backgrounds (green screen).
 
 Feel free to provide feedback and contribute to this tool to make it even better. Stay tuned for the upcoming updates!
