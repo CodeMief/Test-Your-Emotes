@@ -176,21 +176,25 @@ body main .section .row .imgTwitchContainer {
 body main .section .row .imgTwitchContainer .small {
   width: 28px;
   height: 28px;
+  object-fit: contain;
 }
 
 body main .section .row .imgTwitchContainer .badge {
   width: 18px;
   height: 18px;
+  object-fit: contain;
 }
 
 body main .section .row .imgTwitchContainer .medium {
   width: 56px;
   height: 56px;
+  object-fit: contain;
 }
 
 body main .section .row .imgTwitchContainer .large {
   width: 112px;
   height: 112px;
+  object-fit: contain;
 }
 
 body main .section .row .discordBox {
@@ -219,11 +223,13 @@ body main .section .row .discordBox p .chatDateText {
 body main .section .row .discordBox .imgDiscordContainer .small {
   width: 28px;
   height: 28px;
+  object-fit: contain;
 }
 
 body main .section .row .discordBox .imgDiscordContainer .medium {
   width: 56px;
   height: 56px;
+  object-fit: contain;
 }
 
 body main .section .row .discordBox .reactionContainer {
@@ -244,6 +250,7 @@ body main .section .row .discordBox .reactionContainer p {
 body main .section .row .discordBox .reactionContainer .reaction {
   width: 18px;
   height: 18px;
+  object-fit: contain;
 }
 
 body footer {
