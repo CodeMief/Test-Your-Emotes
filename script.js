@@ -1,3 +1,4 @@
+// Replacing the Emotes with the user Emote / image input
 const emote_input = document.querySelector("#emoteInput");
 let uploaded_emote = "";
 
@@ -14,6 +15,7 @@ emote_input.addEventListener("change", function() {
   reader.readAsDataURL(this.files[0]);
 });
 
+// Replacing the Badges with the user Badge / image input
 const badge_input = document.querySelector("#badgeInput");
 let uploaded_badge = "";
 
@@ -29,8 +31,3 @@ badge_input.addEventListener("change", function() {
   });
   reader.readAsDataURL(this.files[0]);
 });
-function changeBackgroundColor() {
-    const colorPicker = document.getElementById('colorPicker');
-    const navBrand = document.querySelector('body');
-    navBrand.style.backgroundColor = colorPicker.value;
-}
